@@ -43,7 +43,7 @@ function setup() {
     Composite.add(engine.world, [poly1A, poly1B, constraint1]);
 
     poly2 = Bodies.polygon(100, 200, 5, 40);
-    // add obj attach to spefic point in world
+    // add obj attach to specific point in the world
     constraint2 = Constraint.create({
                                     pointA : {x : 150, y : 50},
                                     bodyB : poly2,
